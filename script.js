@@ -25,3 +25,9 @@ myMovie.Year = 1962;
 
 // checking the changes to properties
 console.log(myMovie);
+
+// remove summary property
+delete myMovie.Summary;
+
+// checking if deleted prop
+console.log(myMovie);
